@@ -1,6 +1,14 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.bloco{
+    margin: 10px;
+    width: 300px;
+}
+
 #bloco-1{
-    margin: 20px;
-    width: 30vw ;
     padding: 10px;
     background-color: chocolate;
     color: white;
@@ -8,8 +16,6 @@
 }
 
 #bloco-2{
-    margin: 20px;
-    width: 30vw ;
     padding: 10px;
     background-color: rgb(55, 116, 55);
     color: white;
@@ -17,21 +23,17 @@
 }
 
 #bloco-3{
-    margin: 20px;
-    width: 30vw ;
     padding: 10px;
     background-color: rgb(17, 68, 17);
     color: white;
-    border:5px rgb(73, 173, 73) solid;
+    border:5px rgb(73, 173, 73) dashed;
 }
 
 #bloco-4{
-    margin: 20px;
-    width: 30vw ;
     padding: 10px;
     background-color: red;
     color: white;
-    border:5px rgb(197, 115, 115) solid;
+    border:5px rgb(197, 115, 115) dashed;
 }
 
 main{
